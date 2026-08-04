@@ -302,6 +302,11 @@ CON_COMMAND_F(cs2fow_check_config, "Check current CS2FOW settings without changi
 	g_plugin.check_config();
 }
 
+CON_COMMAND_F(cs2fow_check_update, "Check for a CS2FOW update now", FCVAR_NONE)
+{
+	g_plugin.check_update();
+}
+
 CON_COMMAND_F(cs2fow_config_loaded, "Confirm that cs2fow.cfg finished loading", FCVAR_HIDDEN)
 {
 	g_plugin.config_loaded();

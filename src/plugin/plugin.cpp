@@ -443,7 +443,13 @@ void plugin::print_help() const
 	META_CONPRINTF("[CS2FOW] cs2fow_metrics - Show the complete technical runtime counters.\n");
 	META_CONPRINTF("[CS2FOW] cs2fow_reload - Transactionally reload cs2fow.cfg.\n");
 	META_CONPRINTF("[CS2FOW] cs2fow_check_config - Check settings without changing them.\n");
+	META_CONPRINTF("[CS2FOW] cs2fow_check_update - Check for an update now instead of waiting.\n");
 	META_CONPRINTF("[CS2FOW] cs2fow_entity [<edict>|clear] - Inspect actual debug-mode transmit clears.\n");
+}
+
+void plugin::check_update()
+{
+	updater_.check_now();
 }
 
 void plugin::check_config() const

@@ -23,6 +23,7 @@ public:
 	void start(server_binary_fingerprint detected_fingerprint);
 	void unload();
 	void on_game_frame();
+	void check_now();
 
 private:
 	enum class request_kind
@@ -74,6 +75,7 @@ private:
 	std::future<stage_result> staging_;
 	bool http_unavailable_warned_ {};
 	bool release_selection_failed_ {};
+	bool manual_check_ {};
 };
 
 } // namespace cs2fow

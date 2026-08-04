@@ -143,6 +143,7 @@ public:
 	void print_help() const;
 	void reload_config();
 	void check_config() const;
+	void check_update();
 	void config_loaded();
 	void settings_changed(uint32_t changes);
 	void print_entities(int edict);

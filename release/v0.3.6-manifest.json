@@ -1,0 +1,62 @@
+{
+  "version": "0.3.6",
+  "source_commit": "72490b2d0a4dc31d71766ec55b6dcebf27a1052c",
+  "cs2_app_id": 730,
+  "cs2_build_id": "24537688",
+  "cs2_version": "1.41.7.4",
+  "cs2_last_updated_unix": 1785791885,
+  "server_depots": {
+    "windows": {
+      "depot_id": 2347771,
+      "manifest_id": "3132779792492138697",
+      "accepted_binary_fingerprints": [
+        {
+          "size": 32818840,
+          "crc32": "0x567d311b"
+        }
+      ]
+    },
+    "linux": {
+      "depot_id": 2347773,
+      "manifest_id": "8127770850217610141",
+      "accepted_binary_fingerprints": [
+        {
+          "size": 40344184,
+          "crc32": "0x4171e91f"
+        }
+      ]
+    }
+  },
+  "bvh8_format_version": 3,
+  "bake_recipe_version": 1,
+  "official_maps": [
+    "ar_baggage",
+    "ar_pool_day",
+    "ar_shoots",
+    "ar_shoots_night",
+    "cs_italy",
+    "cs_office",
+    "cs_shelter",
+    "de_ancient",
+    "de_ancient_night",
+    "de_anubis",
+    "de_boulder",
+    "de_cache",
+    "de_debris",
+    "de_dust2",
+    "de_eldorado",
+    "de_fachwerk",
+    "de_inferno",
+    "de_mirage",
+    "de_nuke",
+    "de_overpass",
+    "de_poseidon",
+    "de_train",
+    "de_vertigo"
+  ],
+  "artifacts": {
+    "cs2fow-0.3.6-windows-x86_64.zip": "44871a15faa8316df4fe71304c5e5ddcdb1a26cafa8ee341d61204fc381f85dd",
+    "cs2fow-0.3.6-linux-x86_64.zip": "209b3202f7aa4b74a93e869ea2b051c5f8aa7b82b4377aa78f917b259c9d4641",
+    "cs2fow-0.3.6-official-maps.zip": "b08e06a8bc659440876d84a62753a75839e1b4a38fd6447263e99c9e8a91ec14"
+  }
+}

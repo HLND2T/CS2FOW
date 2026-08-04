@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.3.6
+
+- Updated the strict Windows and Linux gamedata fingerprints and private addresses for CS2 build `24537688` (`1.41.7.4`). Unknown binaries remain fail-open.
+- Added `cs2fow_check_update` for an immediate update check, including clear results when the server is current, an update is already prepared, or automatic updates are disabled.
+- Freshly baked and validated all 23 official maps from build `24537688`. Five changed map sources (`cs_shelter`, `de_boulder`, `de_cache`, `de_debris`, and `de_fachwerk`) now have new matching geometry.
+
 ## 0.3.5
 
 - Added verified automatic updates, enabled by default with `cs2fow_auto_update 1`. CS2FOW checks GitHub's stable releases, requires an exact Windows/Linux package and release manifest, verifies both SHA-256 digests and the current CS2 server-binary fingerprint, and stages the complete platform package outside the game loop.

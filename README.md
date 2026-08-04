@@ -138,6 +138,7 @@ cs2fow_status         show concise health and protection state
 cs2fow_metrics        show complete performance and activity counters
 cs2fow_reload         safely reload all settings or keep the previous ones
 cs2fow_check_config   explain settings that deserve attention
+cs2fow_check_update   check for a new version without waiting
 ```
 
 Direct console changes still work immediately. A successful reload applies changes that are safe while a map is running; `cs2fow_worker_threads` starts on the next map, and status shows both the configured and currently running worker counts until then. Out of the box, wall and smoke filtering and automatic updates are on, while teammate filtering is off. Valve's `sv_enable_donttransmit` setting controls how CS2 marks network entities that should not be sent; CS2FOW uses the safer compatibility mode `0` by default and also supports mode `1`.
